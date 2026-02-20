@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <Fragment>
+    <>
       <Header />
       <main>
         <section id='core-concepts'>
@@ -55,7 +55,7 @@ function App() {
           {tabContent}
         </section>
       </main>
-    </Fragment>
+    </>
   );
 }
 
